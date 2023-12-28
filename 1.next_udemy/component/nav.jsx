@@ -13,14 +13,12 @@ export default function Nav(){
                 <Link 
                     className={isActive('/') ? 'active' : ''}
                 href='/'>
-                    
                     nav
                 </Link>
 
                 <Link 
-                className={isActive('/') ? 'news' : ''}
+                    className={isActive('/') ? 'news' : ''}
                 href='news'>
-
                     news
                 </Link>
             </nav>

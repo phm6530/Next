@@ -4,7 +4,7 @@ function test(){
     const router = useRouter();
     
     // router.query
-    
+    console.log(router.query);
     return(
         <>
             {router.query.newsId}        
